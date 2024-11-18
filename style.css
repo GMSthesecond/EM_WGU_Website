@@ -1,0 +1,89 @@
+/* Basic Reset */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  /* General */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header and Navigation */
+  header {
+    background-color: #00b318;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  nav a {
+    color: white;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main */
+  main {
+    text-align: center;
+    margin: 20px;
+  }
+  .back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00b318;
+    color: white;
+    border-radius: 5px;
+  }
+  .back-button:hover {
+    background-color: #00408d;
+  }
+  /* Button Container */
+.button-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* External Link Styling */
+.external-link {
+  color: #3db5fa;
+  text-decoration: underline;
+}
+
+.external-link:hover {
+  color: rgb(86, 44, 201);
+}
+
+/* Navigation Buttons */
+.nav-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #0056b3;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #00408d;
+}
+  
